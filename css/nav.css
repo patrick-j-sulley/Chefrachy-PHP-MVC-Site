@@ -1,0 +1,33 @@
+
+/* a css script for Nav bar, padding fix & Competition Graphic */
+
+/*Sets nav colours to whitesmoke*/
+.mynav {
+    color: whitesmoke;
+}
+
+/*Sets padding-left and padding-right to 0*/
+.mypaddingfix {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*Sets absolute placement of the competition graphic*/
+.CompetitionGraphic {
+    position: absolute;
+    left: -500px;
+    top:  650px;  
+    height: 300px;
+    width: 300px;
+}
+
+/*handles resizing on navbar*/
+@media screen and (min-width: 600px, max-width:100%) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+
